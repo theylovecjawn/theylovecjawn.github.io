@@ -6,3 +6,25 @@ body {
   color : #ffffff;
   font-size: 15px;
   }
+h1 {
+font-size: 50px;
+}
+nav {
+  background-color: #c3073f;
+  color: white;
+}
+
+nav > a {
+color: #ffffff;
+text-decoration: none;
+padding: 12px 110px;
+display: inline-block;
+}
+
+nav > a:hover {
+  background-color: #4e4e50;
+}
+
+img {
+  border-radius: 25px;
+}
