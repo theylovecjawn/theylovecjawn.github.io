@@ -9,20 +9,29 @@ body {
 h1 {
 font-size: 50px;
 }
+li{
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 20px;  
+}
 nav {
+  border-radius: 25px;
   background-color: #c3073f;
   color: white;
+  
 }
 
 nav > a {
 color: #ffffff;
 text-decoration: none;
-padding: 12px 110px;
+padding: 15px 118.3px;
 display: inline-block;
 }
 
 nav > a:hover {
   background-color: #4e4e50;
+  border-radius: 25px;
+  
 }
 
 img {
