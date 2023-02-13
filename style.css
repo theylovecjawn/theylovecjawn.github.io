@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+
 
 body {
   font-family: 'Lobster', cursive;
@@ -15,16 +17,31 @@ li{
     font-size: 20px;  
 }
 nav {
+  font-family: 'Lato', sans-serif;
   border-radius: 25px;
   background-color: #c3073f;
   color: white;
   
 }
+#name{
+  text-align: center;
+}
 
+.ep{
+  text-align: center;
+}
+#intro-hi{
+  text-align: center;
+}
+
+#logo{
+  background-color:#c3073f;
+  border-radius: 25px
+}
 nav > a {
 color: #ffffff;
 text-decoration: none;
-padding: 15px 110.3px;
+padding: 15px 117.35px;
 display: inline-block;
 }
 
@@ -32,6 +49,9 @@ nav > a:hover {
   background-color: #4e4e50;
   border-radius: 25px;
   
+}
+#photo-me{
+  text-align: center;
 }
 
 img {
