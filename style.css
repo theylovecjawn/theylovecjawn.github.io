@@ -134,7 +134,7 @@ p:before{
   margin:28px 0 0;
   font-size:14px;
   color:#5a5a5a}
-button{
+.button2{
   float:right;
   padding:8px 12px;
   margin:8px 0 0;
@@ -144,7 +144,7 @@ button{
   color:#5a5a6e;
   cursor:pointer;
   transition:all .3s}
-button:hover{
+.button2:hover{
   background:#78788c;
   color:#fff}
 div{
@@ -161,3 +161,8 @@ div{
   box-shadow:10px 10px 40px -14px #000}
 span{
   margin:0 5px 0 15px}
+
+.bullet-list{
+  list-style-type: circle;
+  text-align: center;
+}

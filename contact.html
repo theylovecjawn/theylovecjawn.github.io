@@ -15,16 +15,19 @@
         <a href="fillerPage.html">Interesting Facts</a>
         <a href="contact.html">Contact!</a>
     </nav>
-    <form class="form">
+    <form class="form" action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
         <h2 class="heading-contact">CONTACT ME</h2>
-        <p type="Name:"><input placeholder="Write your name here.."></input></p>
-        <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
-        <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
-        <button>Send Message</button>
+        <p type="Name:"><input placeholder="John Doe.." name="fullName"></input></p>
+        <p type="Email:"><input placeholder="something@gmail.com.." name="email"></input></p>
+        <p type="Message:"><input placeholder="Your Message.." name="Message"></input></p>
+        <input type="submit" class="button2">
+        <input name="send-to" value="cjohn@brooklynsteamcenter.org" hidden>
         <div>
           <span class="fa fa-phone"></span>347 243 6926
           <span class="fa fa-envelope-o"></span> calebjohn234@gmail.com
         </div>
       </form>
+      <p> use this form to contact me!</p>
 </body>
 </html>
