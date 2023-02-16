@@ -68,10 +68,10 @@ img {
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
-  position: absolute;
+  position:absolute;
 }
 form{
-  margin:35px;
+  margin: 35px;
 }
 .input-field{
   width: 400px;
@@ -135,6 +135,7 @@ p:before{
   font-size:14px;
   color:#5a5a5a}
 .button2{
+  border-radius: 8px ;
   float:right;
   padding:8px 12px;
   margin:8px 0 0;
@@ -145,6 +146,7 @@ p:before{
   cursor:pointer;
   transition:all .3s}
 .button2:hover{
+  border-radius: 8px;
   background:#78788c;
   color:#fff}
 div{
@@ -166,3 +168,19 @@ span{
   list-style-type: circle;
   text-align: center;
 }
+
+#gitIcon{
+  color: #171515;
+}
+#phoneIcon{
+ color:#171515; 
+}
+#emailIcon{
+  color:#171515; 
+ }
+
+ .icons{
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+ }

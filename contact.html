@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav>
@@ -15,7 +16,8 @@
         <a href="fillerPage.html">Interesting Facts</a>
         <a href="contact.html">Contact!</a>
     </nav>
-    <form class="form" action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    
+        <form class="form" action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
     method="post">
         <h2 class="heading-contact">CONTACT ME</h2>
         <p type="Name:"><input placeholder="John Doe.." name="fullName"></input></p>
@@ -24,8 +26,9 @@
         <input type="submit" class="button2">
         <input name="send-to" value="cjohn@brooklynsteamcenter.org" hidden>
         <div>
-          <span class="fa fa-phone"></span>347 243 6926
-          <span class="fa fa-envelope-o"></span> calebjohn234@gmail.com
+          <span id="phoneIcon" class="fa fa-phone" ></span><a href="tel:347 243 6926" class="icons">Call me</a>
+          <span id="emailIcon" class="fa fa-envelope-o"></span><a href="mailto:cjohn@brooklynsteamcenter.org" class="icons">Email Me</a>
+          <span id="gitIcon" class="fa fa-github"></span><a href="https://github.com/theylovecjawn" class="icons">My GitHub</a>
         </div>
       </form>
       <p> use this form to contact me!</p>
