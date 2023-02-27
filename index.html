@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caleb John | Home Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav>
         <a href="index.html" id='logo'><img src="logo.png" width="50" height="15" alt="This is my websites logo"></a>
-            <a href="about.html">About </a>
-            <a href="certifications.html">Certifications</a>
-            <a href="fillerPage.html">Interesting Facts</a>
-            <a href="contact.html">Contact!</a>
+            <a href="#aboutPage">About </a>
+            <a href="#certs">Certifications</a>
+            <a href="#interestingFacts">Interesting Facts</a>
+            <a href="#contactPage">Contact!</a>
     </nav>
     <h2 id="intro-hi">Hi! I'm</h2>
     <h1 id="name">- Caleb John -<hr></h1>
@@ -22,8 +23,68 @@
     <h3 class="text-about"> I am a full stack developer at the Brooklyn Steam Center. I thrive/strive to become the best programmer in the wrold!</h3>
     <h3 class="text-about">This website is to show my achievemnts ands foer you to learn more about me!</h3>
     <h3><hr width="400"></h3>
+    <br>
+    <br>
+    <br>
+    <Íbr>
+
+<section id="aboutPage">
+<h1 class="ep">
+    About me!<hr>
+</h1>
+<h3 class="text-about">
+    Hey! My name is caleb john and I am a Fullstack developer here at the Brooklyn Steam Center! One of my main goals/aspirations is that I want to strive to become the best at what I do.
+</h3>
+<h3 class="text-about">
+    Some of the thngs I do here at the steam center is:
+</h3>
+<ol class="text-about">
+<li class="bullet-list">Work on WBL Projects</li>
+<li class="bullet-list">Code Websites</li>
+<li class="bullet-list">Build Pc's</li>
+<li class="bullet-list">Build Social Character</li>
+</ol>
+<br>
+<br>
+<p class="text-about"><img src="school pic.jpg" width=500 length= 1000></p>
+<hr width="400">
+<h3 class="text-about">
+    My home school is Medgar Evers Prepatory Collge School. <br> There I study many different subjects one of those being Computer Science!
+    <br> The languages that I have learned while at Medgar include:
+    <ul>
+        <li class="bullet-list">Python</li>
+        <li class="bullet-list">Java</li>
+        <li class="bullet-list">JavaScript</li>
+    </ul>
+</h3>
 
 
+</section>
+<section id="certs">
+
+</section>
+
+<section id="interestingFacts">
+
+</section>
+
+<section id="contactPage">
+    <form class="form" action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
+        <h2 class="heading-contact">CONTACT ME</h2>
+        <p type="Name:"><input placeholder="John Doe.." name="fullName"></input></p>
+        <p type="Email:"><input placeholder="something@gmail.com.." name="email"></input></p>
+        <p type="Message:"><input placeholder="Your Message.." name="Message"></input></p>
+        <input type="submit" class="button2">
+        <input name="send-to" value="cjohn@brooklynsteamcenter.org" hidden>
+        <div>
+          <span id="phoneIcon" class="fa fa-phone" ></span><a href="tel:347 243 6926" class="icons">Call me</a>
+          <span id="emailIcon" class="fa fa-envelope-o"></span><a href="mailto:cjohn@brooklynsteamcenter.org" class="icons">Email Me</a>
+          <span id="gitIcon" class="fa fa-github"></span><a href="https://github.com/theylovecjawn" class="icons">My GitHub</a>
+        </div>
+      </form>
+      <p> use this form to contact me!</p>
+</section>
 
 </body>
 </html>

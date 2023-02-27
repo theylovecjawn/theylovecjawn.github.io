@@ -25,6 +25,8 @@ nav {
   border-radius: 25px;
   background-color: #c3073f;
   color: white;
+  position:sticky;
+  top: 0;
   
 }
 #name{
