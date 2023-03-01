@@ -25,6 +25,7 @@ li{
     font-size: 20px;  
 }
 nav {
+  font-weight: bold;
   font-family: 'Lato', sans-serif;
   border-radius: 25px;
   background-color: #808080;
@@ -192,10 +193,16 @@ span{
   font-weight: bold;
  }
  .vh100{
-  height: 100vh;
+  height: 120vh;
  }
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 480px){
   #school-pic{
+    width: 100%
+  }
+  #cert-pic{
+    width: 100%
+  }
+  #first-box{
     width: 100%
   }
   nav {
@@ -207,4 +214,14 @@ span{
     top: 0;
     
   }
+ }
+
+ .box1{
+  background-color: #808080;
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+  
  }
