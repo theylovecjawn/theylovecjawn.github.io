@@ -193,7 +193,7 @@ span{
   font-weight: bold;
  }
  .vh100{
-  height: 120vh;
+  height: 140vh;
  }
  @media screen and (max-width: 480px){
   #school-pic{
