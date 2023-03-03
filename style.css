@@ -193,9 +193,22 @@ span{
   font-weight: bold;
  }
  .vh100{
-  height: 140vh;
+  min-height: 100vh;
  }
- @media screen and (max-width: 480px){
+
+ #oshaPic{
+  float: left;
+ }
+ #workEdPic{
+  float: right;
+ }
+
+ @media screen and (max-width: 375px){
+
+
+  #photo-me{
+    width: 100%;
+  }
   #school-pic{
     width: 100%
   }
@@ -203,6 +216,12 @@ span{
     width: 100%
   }
   #first-box{
+    width: 100%
+  }
+  #oshaPic{
+    width: 100%
+  }
+  #workEdPic{
     width: 100%
   }
   nav {
@@ -225,3 +244,12 @@ span{
   border-radius: 15px;
   
  }
+
+main{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#interestingFacts{
+  margin-top: 20%;
+}
