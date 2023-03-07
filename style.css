@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Lobster', cursive;
-  background-image: url("https://jmd.im/black_wallpapers/II/desktop/BLACK_II_desktop.jpg");
+  background-image: url("Optimized-duotone.png");
   color : #ffffff;
   font-size: 15px;
   }
@@ -28,7 +28,7 @@ nav {
   font-weight: bold;
   font-family: 'Lato', sans-serif;
   border-radius: 25px;
-  background-color: #808080;
+  background-color: #000000;
   color: white;
   position:sticky;
   top: 0;
@@ -46,7 +46,7 @@ nav {
 }
 
 #logo{
-  background-color:#808080
+  background-color:#000000
   ;
   border-radius: 25px
 }
@@ -189,7 +189,7 @@ span{
 
  .icons{
   text-decoration: none;
-  color: brown;
+  color: rgb(255, 255, 255);
   font-weight: bold;
  }
  .vh100{
@@ -252,4 +252,26 @@ main{
 }
 #interestingFacts{
   margin-top: 20%;
+}
+#boxfloat1{
+  background-color: black;
+  float:left;
+  width: 350px;
+  height: 250px;
+  border: 15px solid black;
+  padding: 50p black;
+  margin: 20px;
+  border-radius: 12px;
+  font-size: 40px;
+}
+#boxfloat2{
+  background-color: black;
+  float:right;
+  width: 350px;
+  height: 250px;
+  border: 15px solid black;
+  padding: 50p black;
+  margin: 20px;
+  border-radius: 12px;
+  font-size: 40px;
 }
