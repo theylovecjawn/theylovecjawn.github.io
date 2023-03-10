@@ -107,7 +107,7 @@ form{
   cursor: pointer;
 }
 .form{
-  width:340px;
+  width:370px;
   height:440px;
   background:#e6e6e6;
   border-radius:8px;
@@ -165,7 +165,7 @@ div{
   right:-20px;
   background:#50505a;
   color:#fff;
-  width:320px;
+  width:370px;
   padding:16px 4px 16px 0;
   border-radius:6px;
   font-size:13px;
@@ -185,6 +185,9 @@ span{
  color:#171515; 
 }
 #emailIcon{
+  color:#171515; 
+ }
+ #resume{
   color:#171515; 
  }
 
@@ -271,35 +274,18 @@ main{
 #interestingFacts{
   margin-top: 20%;
 }
-#boxfloat1{
-  background-color: black;
-  float:left;
-  width: 350px;
-  height: 250px;
-  border: 15px solid black;
-  padding: 50p black;
-  margin: 20px;
-  border-radius: 12px;
-  font-size: 40px;
-}
-#boxfloat2{
-  background-color: black;
-  float:right;
-  width: 350px;
-  height: 250px;
-  border: 15px solid black;
-  padding: 50p black;
-  margin: 20px;
-  border-radius: 12px;
-  font-size: 40px;
-}
-
 .boxes{
   font-size: 40px;
   margin: 20px auto;
   padding: 20px;
-  height: 80px;
-  width: 80px;
-  border: 1px solid white;
-  border-radius: 50%;
+  height: 275px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  border: #000;
+  border-width: 5px;
+  border-style: solid;
+  float: left;
+}
+.hrThing{
+  width: 250px;
 }
