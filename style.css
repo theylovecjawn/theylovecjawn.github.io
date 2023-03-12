@@ -219,6 +219,17 @@ span{
   border-radius: 12px;
   font-size: 40px;
   }
+  .boxes{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 275px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    border: #000;
+    border-width: 5px;
+    border-style: solid;
+    float: none;
 
   #photo-me{
     width: 100%;
