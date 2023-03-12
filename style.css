@@ -289,3 +289,15 @@ main{
 .hrThing{
   width: 250px;
 }
+.boxes2{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 275px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  border: #000;
+  border-width: 5px;
+  border-style: solid;
+  float: right;
+}
