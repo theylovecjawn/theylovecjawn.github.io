@@ -229,7 +229,7 @@ span{
     border: #000;
     border-width: 5px;
     border-style: solid;
-    float: none;
+    float: none;}
 
   #photo-me{
     width: 100%;
@@ -265,7 +265,7 @@ span{
     top: 0;
     
   }
- }
+}
 
  .box1{
   background-color: #808080;
