@@ -219,7 +219,9 @@ span{
   border-radius: 12px;
   font-size: 40px;
   }
-
+.interestingFacts{
+  font-size: medium;
+}
 
   #photo-me{
     width: 100%;
@@ -274,6 +276,7 @@ main{
 }
 #interestingFacts{
   margin-top: 20%;
+  font-size: larger;
 }
 #contactPage{
   margin-top: 20%
