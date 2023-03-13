@@ -5,6 +5,8 @@
 body {
   font-family: 'Lobster', cursive;
   background-image: url("Optimized-duotone.png");
+  background-attachment: fixed;
+  background-size: 100%;
   color : #ffffff;
   font-size: 15px;
   
@@ -33,6 +35,7 @@ nav {
   color: white;
   position:sticky;
   top: 0;
+  text-align: center;
   
 }
 #name{
@@ -47,9 +50,8 @@ nav {
 }
 
 #logo{
-  background-color:#000000
-  ;
-  border-radius: 25px
+  background-color:#000000;
+  border-radius: 25px;
 }
 nav > a {
 color: #ffffff;
@@ -80,7 +82,7 @@ img {
   position:absolute;
 }
 form{
-  margin: 35px;
+  margin: 75px;
 }
 .input-field{
   width: 400px;
@@ -143,6 +145,9 @@ p:before{
   margin:28px 0 0;
   font-size:14px;
   color:#5a5a5a}
+#certs{
+  margin-top: 40%;
+}
 .button2{
   border-radius: 8px ;
   float:right;
@@ -247,6 +252,13 @@ span{
     width: 100%;
     float: none;
   }
+  #pic123{
+    width: 100%;
+  }
+  #pic1234{
+    width: 100%;
+  }
+ 
   nav {
     font-weight: bold;
     font-family: 'Lato', sans-serif;
@@ -255,8 +267,7 @@ span{
     color: white;
     position:static;
     top: 0;
-    
-  }
+    }
  }
 
  .box1{
@@ -311,3 +322,4 @@ main{
 #iFacts li{
   font-size: 24px;
 }
+
