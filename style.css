@@ -308,3 +308,6 @@ main{
   border-style: solid;
   float: right;
 }
+#iFacts li{
+  font-size: 24px;
+}
