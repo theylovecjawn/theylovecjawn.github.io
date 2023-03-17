@@ -11,6 +11,12 @@ body {
   font-size: 15px;
   
 }
+.text2{
+  float: right;
+}
+.text1{
+  float: left;
+}
 .text-about{
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
@@ -18,6 +24,12 @@ body {
 #school-pic{
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
+}
+#pic123{
+  float: left;
+}
+#pic1234{
+  float: right;
 }
 h1 {
 font-size: 50px;
@@ -53,6 +65,7 @@ nav {
   background-color:#000000;
   border-radius: 25px;
 }
+
 nav > a {
 color: #ffffff;
 text-decoration: none;
@@ -146,7 +159,7 @@ p:before{
   font-size:14px;
   color:#5a5a5a}
 #certs{
-  margin-top: 40%;
+  margin-top: 20%;
 }
 .button2{
   border-radius: 8px ;
@@ -204,9 +217,13 @@ span{
  .vh100{
   min-height: 100vh;
  }
+#htmlcert{
+   text-align: center;
 
+}
  #oshaPic{
   float: left;
+  bottom: 0;
  }
  #workEdPic{
   float: right;
@@ -254,9 +271,12 @@ span{
   }
   #pic123{
     width: 100%;
+    float: none;
   }
+
   #pic1234{
     width: 100%;
+    float: none;
   }
  
   nav {
@@ -290,7 +310,7 @@ main{
   font-size: larger;
 }
 #contactPage{
-  margin-top: 20%
+  margin-top: 70%;
 }
 .boxes{
   font-size: 40px;
