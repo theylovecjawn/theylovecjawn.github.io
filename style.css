@@ -28,9 +28,17 @@ body {
 #pic123{
   float: left;
 }
+
 #pic1234{
   float: right;
 }
+#pic12345{
+  float:left;
+}
+#pic123456{
+  float:right;
+}
+
 h1 {
 font-size: 50px;
 }
